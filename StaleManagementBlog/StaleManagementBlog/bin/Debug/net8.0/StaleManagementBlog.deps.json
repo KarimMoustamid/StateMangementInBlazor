@@ -224,10 +224,16 @@
       },
       "StaleManagementBlog.Client/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Components.WebAssembly": "8.0.4"
+          "Microsoft.AspNetCore.Components.WebAssembly": "8.0.4",
+          "StateManagement.Shared": "1.0.0"
         },
         "runtime": {
           "StaleManagementBlog.Client.dll": {}
+        }
+      },
+      "StateManagement.Shared/1.0.0": {
+        "runtime": {
+          "StateManagement.Shared.dll": {}
         }
       }
     }
@@ -428,6 +434,11 @@
       "hashPath": "system.text.json.8.0.0.nupkg.sha512"
     },
     "StaleManagementBlog.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StateManagement.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

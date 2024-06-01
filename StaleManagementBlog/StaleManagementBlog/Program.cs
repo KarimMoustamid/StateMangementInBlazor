@@ -1,5 +1,7 @@
 using StaleManagementBlog.Client.Pages;
 using StaleManagementBlog.Components;
+using StateManagement.Shared.Interface;
+using StateManagement.Shared.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
+
+builder.Services.AddSingleton<IBlogRepository, BlogRepository>();
 
 var app = builder.Build();
 

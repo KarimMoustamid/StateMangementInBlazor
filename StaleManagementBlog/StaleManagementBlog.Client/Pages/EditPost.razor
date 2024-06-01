@@ -1,26 +1,40 @@
 @page "/EditPost"
-@* @using BlazingBlog.Interface *@
+@using StateManagement.Shared.Interface
+@rendermode InteractiveWebAssembly
 @* @inject IBlogRepository BlogRepository *@
 
-@* <EditForm Model="@this" OnValidSubmit="UpdatePost" class="p-4"> *@
-@*     <div class="mb-3"> *@
-@*         <label for="title" class="form-label">Title</label> *@
-@*         <InputText id="title" class="form-control" @bind-Value="Title"></InputText> *@
-@*     </div> *@
-@*     <div class="mb-3"> *@
-@*         <label for="content" class="form-label">Content</label> *@
-@*         <InputTextArea id="content" class="form-control" @bind-Value="Content"></InputTextArea> *@
-@*     </div> *@
-@*     <button type="submit" class="btn btn-primary">Update Post</button> *@
-@*     <button class="btn btn-secondary" @onclick="CancelEdit">Cancel</button> *@
-@* *@
-@* </EditForm> *@
+<EditForm Model="@this" OnValidSubmit="UpdatePost" class="p-4">
+    <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <InputText id="title" class="form-control" @bind-Value="Title"></InputText>
+    </div>
+    <div class="mb-3">
+        <label for="content" class="form-label">Content</label>
+        <InputTextArea id="content" class="form-control" @bind-Value="Content"></InputTextArea>
+    </div>
+    <button type="submit" class="btn btn-primary">Update Post</button>
+    <button class="btn btn-secondary" @onclick="CancelEdit">Cancel</button>
+</EditForm>
 @code {
 
     protected async override Task OnInitializedAsync()
     {
         Console.WriteLine("EditPost component initialized on the client");
         await base.OnInitializedAsync();
+    }
+
+    private void UpdatePost(EditContext obj)
+    {
+        throw new NotImplementedException();
+    }
+
+    public string Title { get; set; }
+
+    public string Content { get; set; }
+
+    private void CancelEdit()
+    {
+        throw new NotImplementedException();
     }
 
 }

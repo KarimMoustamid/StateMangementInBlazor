@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "StaleManagementBlog.Client",
   "resources": {
-    "hash": "sha256-2a3p67rnP384ekWMNBdEMnsgShOkNh/51URBmo7IuBM=",
+    "hash": "sha256-7W4WMRD0FLEqcjykAmBcCk1ptJ37P36c9hA7h1jLXPs=",
     "jsModuleNative": {
       "dotnet.native.8.0.4.nzlvjfu94m.js": "sha256-ju0+XWE0ihz554eKEj0HQ8Opa61xpbUIaX5/MNo8we4="
     },
@@ -208,10 +208,12 @@
       "mscorlib.wasm": "sha256-VCfYgt1mcjITabSTosCDVZ+68ea3Z7kakTFaLNLG+18=",
       "netstandard.wasm": "sha256-YOZxxR9PM3Dltcijfb0Q4FD39DkWZbZ1e2ScbZDvWJ4=",
       "System.Private.CoreLib.wasm": "sha256-NrT1QkAzVU//2wgK9vXdq77lCGvLJ4IOZ+Aegesyanc=",
-      "StaleManagementBlog.Client.wasm": "sha256-vqDEKDYzBJ/8XFTStz3a3ldIV9Rb+FgQde5W2x5COlQ="
+      "StateManagement.Shared.wasm": "sha256-BkkmUxrHsCwgaPfAo4/KodvzmWQUsKGgUY+XeZ+TErw=",
+      "StaleManagementBlog.Client.wasm": "sha256-+f/9/J1bJitS0GGzwSL7WNkjWrwU4ZGXb8nIUCTBr2Y="
     },
     "pdb": {
-      "StaleManagementBlog.Client.pdb": "sha256-g0GxXQo7v7c8j6MBEH3vJrv5P1pkcgM120f8PQRc9/I="
+      "StateManagement.Shared.pdb": "sha256-ACUmdJod/LH8LukDO1ToojIaoia0BCKk2NpuNcBrQ2I=",
+      "StaleManagementBlog.Client.pdb": "sha256-fptiGAIigfMnpoz1Tdi/XwcNT6ixmeI34EA1FIw1QR0="
     }
   },
   "cacheBootResources": true,
