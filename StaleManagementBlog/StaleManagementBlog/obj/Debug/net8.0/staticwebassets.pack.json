@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/karimmoustamid/Library/Mobile Documents/com~apple~CloudDocs/4 Hours Code/Learn/State/StaleManagement/StaleManagementBlog/StaleManagementBlog/obj/Debug/net8.0/scopedcss/projectbundle/StaleManagementBlog.bundle.scp.css",
+      "PackagePath": "staticwebassets/StaleManagementBlog.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/karimmoustamid/Library/Mobile Documents/com~apple~CloudDocs/4 Hours Code/Learn/State/StaleManagement/StaleManagementBlog/StaleManagementBlog/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/karimmoustamid/Library/Mobile Documents/com~apple~CloudDocs/4 Hours Code/Learn/State/StaleManagement/StaleManagementBlog/StaleManagementBlog/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/karimmoustamid/Library/Mobile Documents/com~apple~CloudDocs/4 Hours Code/Learn/State/StaleManagement/StaleManagementBlog/StaleManagementBlog/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/karimmoustamid/Library/Mobile Documents/com~apple~CloudDocs/4 Hours Code/Learn/State/StaleManagement/StaleManagementBlog/StaleManagementBlog/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.StaleManagementBlog.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.StaleManagementBlog.props",
+      "PackagePath": "build\\StaleManagementBlog.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.StaleManagementBlog.props",
+      "PackagePath": "buildMultiTargeting\\StaleManagementBlog.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.StaleManagementBlog.props",
+      "PackagePath": "buildTransitive\\StaleManagementBlog.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

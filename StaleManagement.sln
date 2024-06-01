@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaleManagementBlog", "StaleManagementBlog\StaleManagementBlog\StaleManagementBlog.csproj", "{1BE7377D-4C4C-43D3-A614-A8136EE1EFC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaleManagementBlog.Client", "StaleManagementBlog\StaleManagementBlog.Client\StaleManagementBlog.Client.csproj", "{69457176-B45E-4B79-AF1D-19A0C89D7CC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateManagement.Shared", "StateManagement.Shared\StateManagement.Shared.csproj", "{F6C95EA3-F97A-46E1-B0D0-87303738C48E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BE7377D-4C4C-43D3-A614-A8136EE1EFC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE7377D-4C4C-43D3-A614-A8136EE1EFC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE7377D-4C4C-43D3-A614-A8136EE1EFC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE7377D-4C4C-43D3-A614-A8136EE1EFC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69457176-B45E-4B79-AF1D-19A0C89D7CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69457176-B45E-4B79-AF1D-19A0C89D7CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69457176-B45E-4B79-AF1D-19A0C89D7CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69457176-B45E-4B79-AF1D-19A0C89D7CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6C95EA3-F97A-46E1-B0D0-87303738C48E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C95EA3-F97A-46E1-B0D0-87303738C48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C95EA3-F97A-46E1-B0D0-87303738C48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C95EA3-F97A-46E1-B0D0-87303738C48E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
